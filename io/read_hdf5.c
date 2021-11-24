@@ -117,8 +117,6 @@ int read_hdf5_data(const char *fname, const char *groupname, char *const *pos, c
         tmp[index].x[2] = dataz[index];
     }
 
-
-
 #ifdef FCFC_DATA_WEIGHT
     real *weight = NULL;
     hsize_t dimw;
